@@ -45,10 +45,6 @@ while True:
 		for y in optionals_list:
 			if x == y:
 				del optionals_list[optionals_list.index(y)]
-	print(needed_list)
-	print(optionals_list)
-		
-	
 
 	if command == "mkdir":
 		current_directory.add_directory(needed_list[0])
